@@ -18,6 +18,7 @@
   /* CONTENT */
   .content-section {
     height: 170vh;
+    margin-bottom: 20rem;
   }
 
   .content-container {
@@ -53,7 +54,6 @@
 
   /* SLIDER */
   .section-container {
-    margin-top: 0;
     height: 75vh;
   }
 
