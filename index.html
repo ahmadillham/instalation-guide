@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/slider.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/content.css" />
+    <link rel="stylesheet" href="./css/personal.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <!-- Particles -->
+      <div class="particles" id="particles-js"></div>
+
+      <!-- Title -->
+      <div class="title">
+        <h1>How to install <span></span></h1>
+      </div>
+      <div class="sub-title">
+        <p>Step-by-step guide for beginners</p>
+      </div>
+      <a href="#content-section" class="title-button">Get Started</a>
+    </header>
+
+    <!-- Content -->
+    <section class="content-section" id="content-section">
+      <div class="content-container">
+        <div class="content-title">
+          <h2><span>Everything</span> You Need</h2>
+          <p>All In One Spot</p>
+        </div>
+
+        <div class="grid">
+          <div class="content">
+            <h3>Browser</h3>
+            <p>A web browser is an application for accessing websites.</p>
+            <div>
+              <button>
+                <a
+                  href="https://en.wikipedia.org/wiki/Web_browser"
+                  target="_blank"
+                  >Learn More</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="ilustration">
+            <img
+              src="./assets/image/browser_screen.webp"
+              alt=""
+              style="width: 20rem; height: auto; border-radius: 30px"
+            />
+          </div>
+        </div>
+
+        <div class="grid grid-reverse">
+          <div class="ilustration">
+            <img
+              src="./assets/image/vscode_screen.webp"
+              alt=""
+              style="width: 20rem; height: auto; border-radius: 30px"
+            />
+          </div>
+          <div class="content">
+            <h3>Text Editor</h3>
+            <p>
+              A text editor is a type of computer program that edits plain text.
+            </p>
+            <div>
+              <button>
+                <a
+                  href="https://simple.wikipedia.org/wiki/Text_editor"
+                  target="_blank"
+                  >Learn More</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="content">
+            <h3>Local Web Server</h3>
+            <p>
+              A server is a computer that provides information to other
+              computers called "clients" on a computer network
+            </p>
+            <div>
+              <button>
+                <a
+                  href="https://en.wikipedia.org/wiki/Server_(computing)"
+                  target="_blank"
+                  >Learn More</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="ilustration">
+            <img
+              src="./assets/image/xampp_screen.webp"
+              alt=""
+              style="width: 20rem; height: auto; border-radius: 30px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Image Slider -->
+    <section class="section-container">
+      <div class="image-slider">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <!-- Chrome -->
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="front">
+                  <img src="./assets/image/chrome.webp" alt="chrome logo" />
+                  <h2>Google Chrome</h2>
+                  <button>Learn More</button>
+                </div>
+                <div class="back">
+                  <img src="./assets/image/chrome.webp" alt="chrome logo" />
+                  <p>
+                    Google Chrome is a web browser developed by Google. It was
+                    first released in 2008 for Microsoft Windows, built with
+                    free software components from Apple WebKit and Mozilla
+                    Firefox. Versions were later released for Linux, macOS, iOS,
+                    iPadOS, and also for Android, where it is the default
+                    browser. The browser is also the main component of ChromeOS,
+                    where it serves as the platform for web applications.
+                  </p>
+                  <button><a href="./pages/chrome.html">Install Now</a></button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Microsoft Edge -->
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="front">
+                  <img src="./assets/image/edge.webp" alt="chrome logo" />
+                  <h2>Microsoft Edge</h2>
+                  <button>Learn More</button>
+                </div>
+                <div class="back">
+                  <img src="./assets/image/edge.webp" alt="chrome logo" />
+                  <p>
+                    Microsoft Edge (or simply nicknamed Edge), based on the
+                    Chromium open-source project, also known as The New
+                    Microsoft Edge or New Edge, is a proprietary cross-platform
+                    web browser created by Microsoft, superseding Edge Legacy.
+                    In Windows 11, Edge is the only browser available from
+                    Microsoft.
+                  </p>
+                  <button><a href="./pages/edge.html">Install Now</a></button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Opera Mini -->
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="front">
+                  <img src="./assets/image/opera.webp" alt="chrome logo" />
+                  <h2>Opera Mini</h2>
+                  <button>Learn More</button>
+                </div>
+                <div class="back">
+                  <img src="./assets/image/opera.webp" alt="chrome logo" />
+                  <p>
+                    Opera is a multi-platform web browser developed by its
+                    namesake company Opera. The current edition of the browser
+                    is based on Chromium. Opera is available on Windows, macOS,
+                    Linux, Android, and iOS (Safari WebKit engine). Two mobile
+                    versions are still active, called Opera Mobile and Opera
+                    Mini. Opera also has a news aggregator app called Opera News
+                    with Aria, an AI-based search engine.
+                  </p>
+                  <button><a href="./pages/opera.html">Install Now</a></button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mozilla Firefox -->
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="front">
+                  <img src="./assets/image/mozilla.webp" alt="chrome logo" />
+                  <h2>Mozilla Firefox</h2>
+                  <button>Learn More</button>
+                </div>
+                <div class="back">
+                  <img src="./assets/image/mozilla.webp" alt="chrome logo" />
+                  <p>
+                    Mozilla is a free software community founded in 1998 by
+                    members of Netscape. The Mozilla community uses, develops,
+                    publishes and supports Mozilla products, thereby promoting
+                    exclusively free software and open standards, with only
+                    minor exceptions. The community is supported institutionally
+                    by the non-profit Mozilla Foundation and its tax-paying
+                    subsidiary, the Mozilla Corporation.
+                  </p>
+                  <button>
+                    <a href="./pages/mozilla.html">Install Now</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- VS Code -->
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="front">
+                  <img src="./assets/image/vscode.webp" alt="chrome logo" />
+                  <h2>VS Code</h2>
+                  <button>Learn More</button>
+                </div>
+                <div class="back">
+                  <img src="./assets/image/vscode.webp" alt="chrome logo" />
+                  <p>
+                    Visual Studio Code, commonly referred to as VS Code, is an
+                    integrated development environment developed by Microsoft
+                    for Windows, Linux, macOS and web browsers. Features include
+                    support for debugging, syntax highlighting, intelligent code
+                    completion, snippets, code refactoring, and embedded version
+                    control with Git. Users can change the theme, keyboard
+                    shortcuts, preferences, and install extensions that add
+                    functionality.
+                  </p>
+                  <button><a href="./pages/vscode.html">Install Now</a></button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sublime Text -->
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="front">
+                  <img
+                    src="./assets/image/sublime text.webp"
+                    alt="chrome logo"
+                  />
+                  <h2>Sublime Text</h2>
+                  <button>Learn More</button>
+                </div>
+                <div class="back">
+                  <img
+                    src="./assets/image/sublime text.webp"
+                    alt="chrome logo"
+                  />
+                  <p>
+                    Sublime Text is a text and source code editor featuring a
+                    minimal interface, syntax highlighting and code folding with
+                    native support for numerous programming and markup
+                    languages, search and replace with support for regular
+                    expressions, an integrated terminal/console window, and
+                    customizable themes. Available for Windows, macOS, and
+                    Linux, its functionality can be expanded with plugins
+                    written in Python.
+                  </p>
+                  <button>
+                    <a href="./pages/sublime-text.html">Install Now</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- XAMPP -->
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="front">
+                  <img src="./assets/image/xampp.webp" alt="chrome logo" />
+                  <h2>XAMPP</h2>
+                  <button>Learn More</button>
+                </div>
+                <div class="back">
+                  <img src="./assets/image/xampp.webp" alt="chrome logo" />
+                  <p>
+                    XAMPP is a free and open-source cross-platform web server
+                    solution stack package developed by Apache Friends,[2]
+                    consisting mainly of the Apache HTTP Server, MariaDB
+                    database, and interpreters for scripts written in the PHP
+                    and Perl programming languages.[3][4] Since most actual web
+                    server deployments use the same components as XAMPP, it
+                    makes transitioning from a local test server to a live
+                    server possible.
+                  </p>
+                  <button><a href="./pages/xampp.html">Install Now</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Personal -->
+    <section class="personal-section">
+      <div class="personal-container">
+        <div class="profile">
+          <h3>Let's Connect</h3>
+          <div class="profile-info">
+            <img src="./assets/image/profile-image.jpg" alt="" />
+            <div class="name">
+              <p>Ahmad Bahrudin Ilham</p>
+              <span>students at Nahdlatul Ulama Sunan Giri University</span>
+            </div>
+          </div>
+        </div>
+        <div class="personal-info">
+          <div class="contact-container">
+            <a
+              href="https://www.facebook.com/share/1EJ981a8Fx/?mibextid=qi2Omg"
+              target="_blank"
+              >Facebook <i class="bi bi-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/bhrdilham?igsh=YTh2Zmptc3lrdDJw"
+              target="_blank"
+              >Instagram <i class="bi bi-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/ahmad-ilham-327a4834a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank"
+              >Linkedin <i class="bi bi-linkedin"></i
+            ></a>
+            <a href="https://github.com/ahmadillham" target="_blank"
+              >Github <i class="bi bi-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/particles.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/header.js"></script>
+  </body>
+</html>

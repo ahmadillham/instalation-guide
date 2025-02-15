@@ -1,0 +1,85 @@
+@media only screen and (max-width: 600px) {
+  /* HEADER */
+  header {
+    gap: 0;
+  }
+
+  .title {
+    font-size: 0.8rem;
+  }
+
+  .sub-title p {
+    font-size: 0.7rem;
+  }
+
+  .title-button {
+    font-size: 0.8rem;
+  }
+  /* CONTENT */
+  .content-section {
+    height: 170vh;
+  }
+
+  .content-container {
+    width: 90%;
+  }
+  .content-title h2 {
+    font-size: 1.6rem;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.6rem;
+  }
+
+  .content {
+    padding: 1.4rem;
+    border: 1px solid white;
+  }
+
+  .content h3 {
+    font-size: 1.2rem;
+  }
+
+  .grid-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .grid .ilustration {
+    margin-top: 0.6rem;
+  }
+
+  /* SLIDER */
+  .section-container {
+    margin-top: 0;
+    height: 75vh;
+  }
+
+  .image-slider {
+    width: 80%;
+  }
+
+  /* PERSONAL */
+  .personal-section {
+    display: none;
+  }
+
+  /* INSTALATION */
+  .step-left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+  }
+
+  .step-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+  }
+
+  .number {
+    top: -3%;
+  }
+}
